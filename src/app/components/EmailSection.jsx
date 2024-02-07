@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
@@ -7,6 +7,8 @@ import Image from "next/image";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
+
+  /* SmtpJS.com - v3.0.0 */
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -70,7 +72,13 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="YOUR_ACCESS_KEY_HERE"
+            />
+
             <div className="mb-6">
               <label
                 htmlFor="email"
@@ -81,6 +89,7 @@ const EmailSection = () => {
               <input
                 name="email"
                 type="email"
+                autoComplete="email"
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
@@ -126,6 +135,7 @@ const EmailSection = () => {
           </form>
         )}
       </div>
+      <script></script>
     </section>
   );
 };
