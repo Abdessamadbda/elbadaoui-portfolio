@@ -39,8 +39,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Hi, I am Abdessamad Elbadaoui, a software engineering student
+            passionate about creating amazing software experiences.
           </p>
           <div>
             <Link

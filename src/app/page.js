@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
@@ -12,18 +12,19 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 // Dynamically import particles.js
 export default function Home() {
-
   return (
-    
-    <main className="flex min-h-screen flex-col" style={{ background: 'linear-gradient(to right, #434343 0%, black 100%)' }} >
-      
+    <main
+      className="flex min-h-screen flex-col"
+      style={{
+        background: "linear-gradient(to right, #434343 0%, black 100%)",
+      }}
+    >
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4" >     
+      <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
-        <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
-        <Skills/>
+        <Skills />
         <EmailSection />
       </div>
       <Footer />

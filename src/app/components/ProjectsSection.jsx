@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "e-PFE",
+    description: "A web platform for managing PFE projects in INPT.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +16,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "HiringHero",
+    description:
+      "A user-friendly plateform that streamlines the hiring process, making it efficient for employers",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,37 +26,22 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Sales management app",
+    description:
+      "During my internship, I developed a comprehensive sales management application aimed at optimizing sales processes and enhancing productivity.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
+
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "EasyFitness",
+    description:
+      "This flutter mobile app is an ultimate guide for youth to kickstarting their fitness journey",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
