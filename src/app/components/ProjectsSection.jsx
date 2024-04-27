@@ -11,7 +11,7 @@ const projectsData = [
     description: "A web platform for managing PFE projects in INPT.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Abdessamadbda/PFE-app.git",
     previewUrl: "/",
   },
   {
@@ -21,7 +21,7 @@ const projectsData = [
       "A user-friendly plateform that streamlines the hiring process, making it efficient for employers",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Abdessamadbda/HiringHero.git",
     previewUrl: "/",
   },
   {
@@ -31,7 +31,7 @@ const projectsData = [
       "During my internship, I developed a comprehensive sales management application aimed at optimizing sales processes and enhancing productivity.",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Abdessamadbda/sales-management-app.git",
     previewUrl: "/",
   },
 
@@ -42,7 +42,27 @@ const projectsData = [
       "This flutter mobile app is an ultimate guide for youth to kickstarting their fitness journey",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Abdessamadbda/Easy_Fitness.git",
+    previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "InVisionLive",
+    description:
+      "A live streaming platform that allows users to broadcast their events and share them with the world, using angular ,spring boot a,d kurento media server",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web"],
     gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 6,
+    title: "Conteneurization of a web application",
+    description:
+      "Conteurization and orchestration of a web application using docker and kubernetes",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Abdessamadbda/mini-projet-conteneurisation.git",
     previewUrl: "/",
   },
 ];

@@ -46,8 +46,8 @@ import { IoLogoGitlab } from "react-icons/io5";
 
 function Skills() {
   return (
-    <div>
-      <h2 className="text-center text-4xl font-bold text-white mt-16 mb-8 md:mb-12">
+    <div id="skills" className="mt-32">
+      <h2 className="text-center text-4xl font-bold text-white mb-8 md:mb-12">
         Programming Languages
       </h2>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
